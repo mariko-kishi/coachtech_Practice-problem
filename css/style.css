@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.title{
+  margin-top: 40px;
+  color: blue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+li{
+  display: inline;
+  font-weight: bold;
+}
+ul{
+  color: blue;
+  text-align: right;
+}
+
+.firstview_img{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.blue-box{
+  width: 400px;
+  height: 80px;
+  background-color: blue;
+}
+
+.firstview_content-ttl{
+  font-size: 40px;
+}
+
+background:url("../img/firstview.jpeg") no-repeat right / 300px 150px 
+
+
+
+
+
+.boxsizing{
+  width: 600px;
+  height: 100px;
+  background-color: blue;
+}
+
+
+
+
+
+
