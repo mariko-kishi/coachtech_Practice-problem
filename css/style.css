@@ -2,6 +2,7 @@
 
 .title{
   margin-top: 40px;
+  margin-left: 40px;
   color: blue;
   font-size: 25px;
   font-weight: bold;
@@ -16,24 +17,39 @@ ul{
   text-align: right;
 }
 
-.firstview_img{
-  width: 40px;
-  height: 40px;
-  position: relative;
-  top: 10px;
-  left: 10px;
+.absolute{
+  position: absolute;
+  top: 10%;
+  left: 30%;
 }
-.blue-box{
-  width: 400px;
-  height: 80px;
-  background-color: blue;
+.first_view{
+  width: 100px;
+  height: 100px;
+
+}
+.relative{
+  position: relative;
+}
+
+.firstview_img{
+  margin 0 0 0 auto;
+  display:block;
 }
 
 .firstview_content-ttl{
-  font-size: 40px;
+  font-size: 50px;
+  margin: top 10px 0px 0px 0px;
 }
 
-background:url("../img/firstview.jpeg") no-repeat right / 300px 150px 
+.blue-box{
+  width: 1000px;
+  height: 50px;
+  background-color: blue;
+}
+
+
+
+
 
 
 
