@@ -1,7 +1,11 @@
 @charset "utf-8";
 
+p{
+  text-align: left;
+}
+  
 .title{
-  margin-top: 40px;
+  margin-top: 80px;
   margin-left: 40px;
   color: blue;
   font-size: 25px;
@@ -10,7 +14,10 @@
 
 li{
   display: inline;
+  margin: 0 10px;
+  text-align: center;
   font-weight: bold;
+  padding-right: 30px;
 }
 ul{
   color: blue;
@@ -20,34 +27,38 @@ ul{
 .absolute{
   position: absolute;
 }
-.first_view{
-  width: 100px;
-  height: 100px;
-
-}
-.relative{
-  position: relative;
+.firstview_img{
+  width: 50%;
+  height: 30%;
 }
 
 .firstview_img{
+  z-index: 1;
+  position: relative;
   margin-left: auto;
-  padding-top: 100px;
+  padding-top: 50px;
+  margin-right: 30px;
   display:block;
 }
 
 .box-wrapper{
-  position: absolute;
-  margin-bottom: 20px;
+    position: absolute;
+  left: 20px;
+  right: 50px;
+  bottom: 80px;
+  width: 30%;
+  height: auto;
+
 }
 
 .firstview_content-ttl{
   font-size: 50px;
-  margin: top 20px 20px 0px ;
+  margin: top 0px ;
 }
 
 .blue-box{
   width: 1000px;
-  height: 50px;
+  height: 150px;
   background-color: blue;
 }
 
