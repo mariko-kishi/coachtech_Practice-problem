@@ -19,8 +19,6 @@ ul{
 
 .absolute{
   position: absolute;
-  top: 10%;
-  left: 30%;
 }
 .first_view{
   width: 100px;
@@ -32,13 +30,19 @@ ul{
 }
 
 .firstview_img{
-  margin 0 0 0 auto;
+  margin-left: auto;
+  padding-top: 100px;
   display:block;
+}
+
+.box-wrapper{
+  position: absolute;
+  margin-bottom: 20px;
 }
 
 .firstview_content-ttl{
   font-size: 50px;
-  margin: top 10px 0px 0px 0px;
+  margin: top 20px 20px 0px ;
 }
 
 .blue-box{
