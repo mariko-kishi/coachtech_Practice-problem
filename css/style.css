@@ -5,7 +5,7 @@ p{
 }
   
 .title{
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: 40px;
   color: blue;
   font-size: 25px;
@@ -37,14 +37,14 @@ ul{
   position: relative;
   margin-left: auto;
   padding-top: 50px;
-  margin-right: 30px;
+  margin-right: 120px;
   display:block;
 }
 
 .box-wrapper{
-    position: absolute;
+  position: absolute;
   left: 20px;
-  right: 50px;
+  right: 60px;
   bottom: 80px;
   width: 30%;
   height: auto;
